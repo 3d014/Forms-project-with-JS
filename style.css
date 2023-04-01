@@ -1,0 +1,159 @@
+body {
+    background-color: #ffbf01;
+    padding: 50px;
+}
+
+.headerButtons {
+    display: flex;
+
+
+}
+
+
+
+#administrationButton {
+    margin-left: 50px;
+    margin-right: 10px;
+    border: 2px solid;
+    border-radius: 5%;
+    border-color: black;
+    font-weight: bold;
+    background-color: #ffd772;
+
+}
+
+#formularButton {
+    border: 2px solid;
+    border-radius: 5%;
+    border-color: black;
+    font-weight: bold;
+    background-color: #ffd772;
+}
+
+.formularSearch {
+    display: flex;
+    margin-top: 20px;
+    padding: 40px 0 40px 30px;
+
+    gap: 20px;
+    border-radius: 5%;
+    border: 2px solid;
+    justify-content: flex-start;
+
+    background-color: #ffd772;
+}
+
+#formularLabel {
+    font-weight: bolder;
+}
+
+.searchButton {
+    font-weight: bold;
+}
+
+.formTemplate {
+    margin-top: 50px;
+    border: 2px solid;
+    background-color: #ffd772;
+    position: relative;
+
+}
+
+.formRow {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.labelElement {
+    margin-left: 1%;
+}
+
+.inputElement {
+    margin-left: 10%
+}
+
+.select1 {
+    margin-left: 10%;
+}
+
+.select2 {
+    margin-left: 10%;
+}
+
+.removeButton {
+    margin-left: 673px;
+}
+
+.addButton {
+    margin-left: 0;
+}
+
+.radioButtonsArea {
+    margin-left: 35%;
+
+}
+
+#saveButtonDiv {
+    position: absolute;
+    bottom: 10px;
+    z-index: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10%;
+    border: 1px solid;
+}
+
+.dataId {
+    font-weight: bold;
+}
+
+.id {
+    width: 20px
+}
+
+.radioButtonGroup {
+    display: block;
+}
+
+
+.labelElement {
+    float: left;
+    margin-left: 20px;
+    width: 150px;
+}
+
+.Row {
+    display: inline-block;
+    margin-left: 100px
+}
+
+.radioButtonLabel {
+    display: inline;
+    position: relative;
+}
+
+.b {
+    display: flex;
+}
+
+.mainRow {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+
+.required {
+    float: left;
+    margin-left: 20px;
+    width: 150px;
+}
+
+.required::after {
+    content: " *"
+}
+
+.saveNewData {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
